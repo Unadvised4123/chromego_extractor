@@ -103,7 +103,7 @@ proxies:
   h2-opts:
     path: /
     host: []
-- name: 🏳 Unknown-vmess | 3-0
+- name: 🇺🇸 US-vmess | 3-0
   type: vmess
   server: yh7.dtku41.xyz
   port: 2082
@@ -136,7 +136,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -163,7 +163,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -176,7 +176,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -189,7 +189,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -202,7 +202,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 📲 电报信息
   type: select
   proxies:
@@ -215,7 +215,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -228,7 +228,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -241,7 +241,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -254,7 +254,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -267,7 +267,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -280,7 +280,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -302,7 +302,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 1-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
-  - 🏳 Unknown-vmess | 3-0
+  - 🇺🇸 US-vmess | 3-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
