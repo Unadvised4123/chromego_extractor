@@ -22,6 +22,18 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
+- name: 🇨🇳 TW-tuic | 8-1
+  server: www2.dtku44.xyz
+  port: 11224
+  type: tuic
+  uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🏳 Unknown-hysteria | 9-1
   type: hysteria
   server: 23.170.40.77
@@ -56,6 +68,26 @@ proxies:
   password: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
+- name: 🏳 Unknown-vmess | 0-0
+  type: vmess
+  server: 104.19.32.188
+  port: 2082
+  uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2-2.freessr2.xyz
+  grpc-opts:
+    serviceName: /
+  h2-opts:
+    path: /
+    host: []
 - name: 🏳 Unknown-vmess | 1-0
   type: vmess
   server: yh4.dtku41.xyz
@@ -98,7 +130,7 @@ proxies:
     host: []
 - name: 🏳 Unknown-vmess | 3-0
   type: vmess
-  server: yh7.dtku41.xyz
+  server: 162.159.143.73
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   alterId: 0
@@ -123,9 +155,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -136,9 +170,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -148,9 +184,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -160,9 +198,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -172,9 +212,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -184,9 +226,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -196,9 +240,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -208,9 +254,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -220,9 +268,11 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -232,9 +282,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -244,9 +296,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -256,9 +310,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
@@ -277,9 +333,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 5-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🏳 Unknown-hysteria | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria2 | 0-0
+  - 🏳 Unknown-vmess | 0-0
   - 🏳 Unknown-vmess | 1-0
   - 🏳 Unknown-vmess | 2-0
   - 🏳 Unknown-vmess | 3-0
