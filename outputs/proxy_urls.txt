@@ -1,6 +1,6 @@
 hysteria://208.87.243.123:38268/?protocol=udp&insecure=1&peer=www.microsoft.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 0-0
-hysteria://166.1.18.52:41363/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 3-0
-hysteria2://dongtaiwang.com@38.114.103.210:30647/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
+hysteria://166.1.18.52:10295/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 3-0
+hysteria2://dongtaiwang.com@38.114.103.210:26288/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@208.87.243.123:33599/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 1-0
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAwLTAiLCAiYWRkIjogIjEwNC4xOS4zMi4xODgiLCAicG9ydCI6IDIwODIsICJpZCI6ICI4NmU5MjZiOS1kNjdhLTRjOGYtYTM1ZS0wMjQ2MzE4MzhhNDUiLCAiYWlkIjogMCwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZmYzIFVua25vd24tdm1lc3MgfCAxLTAiLCAiYWRkIjogIjE2Mi4xNTkuMTQwLjE5IiwgInBvcnQiOiAyMDgyLCAiaWQiOiAiODZlOTI2YjktZDY3YS00YzhmLWEzNWUtMDI0NjMxODM4YTQ1IiwgImFpZCI6IDAsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=

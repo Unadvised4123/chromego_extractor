@@ -67,8 +67,8 @@ proxies:
 - name: 🇺🇸 US-Hysteria | 3-0
   type: hysteria
   server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  port: 10295
+  ports: 20000-30000
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -81,9 +81,9 @@ proxies:
 - name: 🇺🇸 US-Hysteria2 | 0-0
   type: hysteria2
   server: 38.114.103.210
-  port: 30647
+  port: 26288
   password: dongtaiwang.com
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
