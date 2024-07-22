@@ -63,10 +63,10 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria2 | 0-0
   type: hysteria2
-  server: hy2.3124845.xyz
+  server: hy3.3124845.xyz
   port: 443
   password: dongtaiwang.com
-  sni: hy2.3124845.xyz
+  sni: hy3.3124845.xyz
   skip-cert-verify: false
 - name: 🇫🇷 FR-vless | 0-0
   type: vless
